@@ -1,0 +1,38 @@
+.imglayer{
+    position: absolute;
+top: 1%;
+left: 3px;
+right: 3px;
+bottom: 16%;
+background: rgba(21, 21, 21, 0.6);
+opacity: 0;
+transition: all .5s;
+text-align: center;
+transform: translateY(10px);
+}
+ .imginfo{
+    position: absolute;
+width: 100%;
+top: 30%;
+left: 0;
+transform: translate(0%, -70%);
+}
+
+ .imginfo h6{
+    position: relative;
+    margin-top: 100%;
+    font-size: 30px;
+font-weight: 700;
+letter-spacing: 2px;
+transition: all .5s;
+transform: translateY(-15px);
+}
+ .imglayer:hover {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+ .imglayer:hover .imginfo h6{
+    transform: translateY(0);
+    color: white;
+}
